@@ -1,0 +1,100 @@
+.menubar{
+    width: 100%;
+    transition: all 0.3s ease-in;
+    top: 0;
+    position: sticky;
+}
+
+header{
+    width: 100%;
+    height: 5px;
+    background-color: #7b2cbf;
+    animation: loading 2s;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #231942;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu h1{
+    color: #7b2cbf;
+    font-size: 2rem;
+}
+
+.menu span{
+    color: aliceblue;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.search input{
+    width: 50%;
+    padding: 6px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid #7b2cbf;
+    margin-left: 170px;
+}
+
+.search button{
+    width: 75px;
+    height: 35px;
+    border-style: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #7b2cbf;
+    color: aliceblue;
+}
+
+.search button:hover{
+    cursor: pointer;
+    background-color: #64229e;
+}
+
+ul{
+    color: aliceblue;
+    display: flex;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: #7b2cbf;
+    transition: all 0.1s ease-in; 
+}
+
+li{
+    padding-left: 20px;
+}
+
+@keyframes loading {
+    0%{
+        width: 0%;
+        transition: all 2s ease-in;
+    }
+
+    100%{
+        width: 100%;
+        transition: all 2s ease-in;
+    }
+}
+
